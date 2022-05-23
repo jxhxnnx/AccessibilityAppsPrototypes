@@ -1,0 +1,1 @@
+Prototypen von Applikationen für die Bachelorarbeit "Die Entwicklung von iOS und Android Applikationen für Personen mit Sehbehinderungen"

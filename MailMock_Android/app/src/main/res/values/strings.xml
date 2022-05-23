@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MockMail</string>
+    <string name="betreff">Betreff</string>
+    <string name="e_mail_adresse">e-Mail Adresse</string>
+    <string name="antworten">antworten</string>
+    <string name="inhalt">Inhalt</string>
+    <string name="mail_beantworten">Mail beantworten Schaltfläche</string>
+    <string name="adresse_description">e-Mail Adresse des Senders</string>
+    <string name="gesendet_von">gesendet von</string>
+    <string name="empfaenger">Empfänger</string>
+    <string name="senden">senden</string>
+    <string name="sendebutton_description">Abschicken der Mail</string>
+    <string name="zeit">12:23</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+</resources>

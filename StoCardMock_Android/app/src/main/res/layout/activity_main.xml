@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:clickable="true"
+
+            android:padding="5dp"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Nasa"
+                android:src="@drawable/logo" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="115dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:contentDescription="andere Nasa"
+            android:padding="5dp"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="115dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:contentDescription="weitere Nasa"
+            android:padding="5dp"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:importantForAccessibility="no"
+                android:src="@drawable/logo" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="115dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:contentDescription="auch Nasa"
+            android:padding="5dp"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:importantForAccessibility="no"
+                android:src="@drawable/logo" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/karte_hinzufuegen"
+        android:text="@string/karte_hinzufuegen"
+        android:textSize="18sp"
+        android:maxLines="2"
+        app:icon="@drawable/ic_baseline_add_card_24"
+        app:iconSize="30dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
